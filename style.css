@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+body {
+    color: white;
+    background-color: rgb(2, 51, 45);
+}
+
+ul {
+    display: flex;
+    list-style-type: none; /*tirar as bolinhas */
+    padding: 10px; /*distancia das bordas  */
+    justify-content: space-between; /*alinhar o cabeçalho */
+}
+
+/*edição da pagina no geral ⇡  */
+.menu {
+    text-transform: uppercase; /* letra maiuscula */
+    cursor: pointer;
+    gap: 20px;
+    text-align: center;
+    flex-grow: unset;
+}
+
+.menu a{
+    color: white;
+    font-size: 15px; /*tamanho da fonte*/
+    text-decoration: none; 
+    font-family: "nekon", sans-serif;
+}
+
+.itens{
+    padding: 2rem;
+}
+
+/*os 3 são edições do cabeçalho, mudar tamanho, cor, posiçao ⇡  */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.titulo{
+    padding: 5px; /*distancia dos elesmos e a borda*/
+    font-size: 50px;
+}
+
+/*ajustando o tamanho e a posição do titulo das paginas index, academic, portfolio ⇡ */
+
+/*editando a parte do formulário pagina contato ↓ */
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px 25px; /* espaçamento interno*/
+    color: black;
+    background-color:  rgb(209, 231, 229);
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    border-radius: 15px; /*arredondar os cantos*/
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    font-size: 25px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 50px;
+    width: 75%;
+    font-size: 25px;
+}
+
+.button{
+    width: 7%;    
+}
+
+
+
